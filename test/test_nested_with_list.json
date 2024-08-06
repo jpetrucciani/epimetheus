@@ -1,0 +1,14 @@
+{
+  "weather": [
+    {
+      "location": "indianapolis",
+      "temperature": 80.5,
+      "aqi": 69
+    },
+    {
+      "location": "carmel",
+      "temperature": 82.5,
+      "aqi": 70
+    }
+  ]
+}
