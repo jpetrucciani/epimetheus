@@ -85,8 +85,6 @@ jobs:
       - uses: Swatinem/rust-cache@v2
       - run: sudo apt-get update --yes && sudo apt-get install --yes musl-tools
         if: contains(matrix.platform.name, 'musl')
-      - run: sudo apt-get update --yes && sudo apt-get install --yes openssl pkg-config
-        if: contains(matrix.platform.name, 'Linux')
       - uses: houseabsolute/actions-rust-cross@v0
         with:
           command: 'build'
